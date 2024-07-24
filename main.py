@@ -155,7 +155,7 @@ st.title(":blue[IMDB 50k Reviews Dataset]")
 df = load_data()  
 with st.expander("View Data"):
     st.write(df)
-df = df[:100]
+df = df[:1000]
 df['sentiment'] = df['sentiment'].map({'positive': 1, 'negative': 0})  
 
 X = df['review']  
