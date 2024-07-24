@@ -151,7 +151,7 @@ with st.expander("View Code",expanded=True):
     st.code(code,language='python')
 
 st.title(":blue[IMDB 50k Reviews Dataset]")
-
+st.link_button("Github link", "https://github.com/devbm7/IMDB-Reviews-Classification")
 df = load_data()  
 with st.expander("View Data"):
     st.write(df)
