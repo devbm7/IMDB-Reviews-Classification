@@ -2,3 +2,5 @@ matplotlib
 pandas
 scikit_learn
 streamlit
+torch
+transformers
