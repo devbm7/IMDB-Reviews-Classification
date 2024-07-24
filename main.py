@@ -13,7 +13,7 @@ import torch
 
 @st.cache_data  
 def load_data():  
-    return pd.read_csv('reviews.csv')  
+    return pd.read_csv('IMDB Dataset.csv')  
 
 if 'models' not in st.session_state:  
     st.session_state.models = {}  
